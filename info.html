@@ -54,65 +54,475 @@
 
 <body>
     <div class="container-fluid">
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Info</li>
-            </ol>
-        </nav>
-        <div class="mt-4 me-4">
-            <div class="row justify-content-center">
-                <div class="col-10 order-1">
-                    <div class="container">
-                        <div class="row mt-3">
-                            <div class="col-4 ms-3 text-center">
-                                <img src="./imagenes/atraves.jpg" style="width:100%;">
-                            </div>
-                            <div class="col-6 mt-4">
-                                <h2>A través de mi ventana</h2>
-                                <div class="mb-2">
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-half"></i>
+        <div id="ventana">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/atraves.jpg" style="width:100%;">
                                 </div>
-                                <p>Raquel lleva toda la vida loca por Ares, su atractivo y misterioso vecino. Lo observa
-                                    sin ser vista desde su ventana y es que, muy a su pesar, no han intercambiado ni una
-                                    triste palabra. Lo que Raquel no sabe es que eso está a punto de cambiar...
-                                    Ares comenzará a cruzarse en su camino hasta en los lugares más inesperados y
-                                    descubrirá que, en realidad, Raquel no es la niña inocente que creía.
-                                    Ahora, Raquel tiene muy claro su objetivo: conseguir que Ares se enamore de ella.
-                                    Por supuesto, no está dispuesta a perderlo todo por el camino, y mucho menos a sí
-                                    misma...
-                                    Octava edición
-                                    Más de 13.000 ejemplares vendidos
-                                    +18 años</p>
-                                <h5 class="card-text mt-4 mb-4">₡14 900</h5>
-                                <div>
-                                    <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
-                                    <input class="col-md-1 text-center" type="text" class="form-control" value="1">
-                                    <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
-                                    <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar al carrito</a>
-                                    <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                <div class="col-6 mt-4">
+                                    <h2>A través de mi ventana</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <p>Raquel lleva toda la vida loca por Ares, su atractivo y misterioso vecino. Lo
+                                        observa
+                                        sin ser vista desde su ventana y es que, muy a su pesar, no han intercambiado ni
+                                        una
+                                        triste palabra. Lo que Raquel no sabe es que eso está a punto de cambiar...
+                                        Ares comenzará a cruzarse en su camino hasta en los lugares más inesperados y
+                                        descubrirá que, en realidad, Raquel no es la niña inocente que creía.
+                                        Ahora, Raquel tiene muy claro su objetivo: conseguir que Ares se enamore de
+                                        ella.
+                                        Por supuesto, no está dispuesta a perderlo todo por el camino, y mucho menos a
+                                        sí
+                                        misma...
+                                        Octava edición
+                                        Más de 13.000 ejemplares vendidos
+                                        +18 años</p>
+                                    <h5 class="card-text mt-4 mb-4">₡14 900</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-2 order-2 bg-light ">
-                    <div class="text-center mt-3 mb-3">
-                        <a href="club.html">
-                            <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
-                        </a>
-                        <a href="club.html">
-                            <img src="./imagenes/descuento.png" style="width:100%;">
-                        </a>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="obsesion">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/obs.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>La obsesión</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <p>La infancia de Naomi Bowes terminó bruscamente la noche en que siguió a su padre
+                                        hasta el bosque que bordeaba la casa familiar y descubrió el oscuro secreto que
+                                        ocultaba. Mantenía cautiva a una joven. No era la primera a la que había privado
+                                        de su libertad ni la primera a la que pensaba matar.
+                                        Casi dos décadas después, Naomi, convertida en fotógrafa de éxito, se instala en
+                                        un pequeño pueblo de costa, a miles de kilómetros de aquel bosque, y trata de
+                                        pasar desapercibida. Queda prendada de un caserón laberíntico y desvencijado, y
+                                        se vuelca en la reforma. Pretende aprovechar la oportunidad para disfrutar de
+                                        una existencia solitaria. Pero los acogedores lugareños, especialmente el
+                                        apuesto mecánico Xander Keaton, no dejarán que lo logre.</p>
+                                    <h5 class="card-text mt-4 mb-4">₡10 800</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="animales">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/anim.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>Animales fantásticos y dónde encontrarlos</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <p>Hay un ejemplar de Animales fantasticos y donde encontrarlos en casi todos los
+                                        hogares de magos del pais. Ahora, tambien los muggles pueden descubrir donde
+                                        viven los quintapeds, que come el puffskein y por que es mejor no dejar leche
+                                        fuera de casa para un knarl.</p>
+                                    <h5 class="card-text mt-4 mb-4">₡8 000</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="punto">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/pc.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>Punto ciego</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <p>Desde que son niños Edie, Jake y Ryan han sido inseparables. Ellos tres contra el
+                                        mundo. Edie pensaba que su amistad podría con todo, así que cuando su marido
+                                        Jake es brutalmente asesinado y su mejor amigo, Ryan, acusado del crimen, su
+                                        mundo se desmorona.</p>
+                                    <h5 class="card-text mt-4 mb-4">₡12 600</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nieve">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/nieve.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>La chica de nieve</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <p>Nueva York, 1998, cabalgata de Acción de Gracias. Kiera Templeton, desaparece
+                                        entre la multitud. Tras una búsqueda frenetica por toda la ciudad, alguien
+                                        encuentra unos mechones de pelo junto a la ropa que llevaba puesta la pequeña.
+                                    </p>
+                                    <h5 class="card-text mt-4 mb-4">₡11 450</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ultimo">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/ulti.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>Lo último que dijo</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <p>Antes de que Owen Michaels desapareciera, consiguió pasar a escondidas una nota a
+                                        su nueva esposa, Hannah: «Protégela». Hannah sabe exactamente a quién se refiere
+                                        la nota: Bailey, la hija adolescente de Owen, quien perdió trágicamente a su
+                                        madre cuando era niña. Y que no quiere tener absolutamente nada que ver con su
+                                        nueva madrastra.</p>
+                                    <h5 class="card-text mt-4 mb-4">₡10 800</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="asesino">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/as.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>Asesino del perdedor</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <p>Primera novela publicada por Camilo José Cela después de que le concedieran el
+                                        premio Nobel de Literatura en 1989, El asesinato del perdedor tiene por hilo
+                                        conductor el acoso del que un juez hace objeto a una pareja a la que descubrió
+                                        besándose y magreándose en un local público. </p>
+                                    <h5 class="card-text mt-4 mb-4">₡12 800</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="correr">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html#libros">Libros</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Info</li>
+                </ol>
+            </nav>
+            <div class="mt-4 me-4">
+                <div class="row justify-content-center">
+                    <div class="col-10 order-1">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-4 ms-3 text-center">
+                                    <img src="./imagenes/correr.jpg" style="width:100%;">
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <h2>100 Lugares únicos para correr</h2>
+                                    <div class="mb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <p>En todos los continentes hay lugares donde despertar la felicidad: correr al lado
+                                        del mar, en medio de la jungla africana, en los glaciares islandeses o en el
+                                        corazón de alguna ciudad, 100 lugares únicos para correr es una invitación a
+                                        descubrir los sitios más bellos del mundo a través de 100 destinos de ensueño en
+                                        los que hay que correr, al menos, una vez en la vida.</p>
+                                    <h5 class="card-text mt-4 mb-4">₡11 450</h5>
+                                    <div>
+                                        <i class="bi bi-dash-square-fill" style="font-size: 25px;"></i>
+                                        <input class="col-md-1 text-center" type="text" class="form-control" value="1">
+                                        <i class="bi bi-plus-square-fill" style="font-size: 25px;"></i>
+                                        <a class="btn btn-outline-info btn-sm" href="carrito.html" role="button">Agregar
+                                            al
+                                            carrito</a>
+                                        <i class="bi bi-bookmark-heart-fill" style="font-size: 25px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 order-2 bg-light ">
+                        <div class="text-center mt-3 mb-3">
+                            <a href="club.html">
+                                <img src="./imagenes/club.png" style="width:100%; margin-bottom: 4px;">
+                            </a>
+                            <a href="club.html">
+                                <img src="./imagenes/descuento.png" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </body>
 
