@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #212529;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto III</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/ico" href="imagenes/logo5.png">
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./imagenes/logo4.png" alt="Logo" style="width:140px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="autores.html">Autores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categorias.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertas</a>
+                    </li>
+                </ul>
+                <form class="d-flex w-50" role="search">
+                    <input class="form-control me-1" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <ul class="navbar-nav" style="margin-bottom: 4px;">
+                    <li class="nav-item" style="margin-left: 20px;">
+                        <a class="navbar-brand" href="login.html">
+                            <img src="./imagenes/cuenta.png" style="width:49px;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="comprar.html">
+                            <img src="./imagenes/comprar.png" style="width:58px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Autores</li>
+            </ol>
+        </nav>
+        <div class="mt-4 me-4">
+            <div class="row justify-content-center">
+                <div class="col-10 order-1">
+                    <div class="container text-center">
+                        <div class="row justify-content-center mb-4">
+                            <div class="col">
+                                <div class="card" style="width: 12rem; height: 20rem;">
+                                    <a class="navbar-brand" href="autor-mes.html"><img src="imagenes/g.jpg"
+                                            class="card-img-top mt-3"
+                                            style="width: 9rem; height: 13rem; align-self: center;"> </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">George Orwell</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 12rem; height: 20rem;">
+                                    <a class="navbar-brand" href="autor-mes.html"><img src="imagenes/a.jpg"
+                                            class="card-img-top mt-3"
+                                            style="width: 9rem; height: 13rem; align-self: center;"> </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ariana Godoy</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 12rem; height: 20rem;">
+                                    <a class="navbar-brand" href="autor-mes.html"><img src="imagenes/f.jpg"
+                                        class="card-img-top mt-3"
+                                        style="width: 9rem; height: 13rem; align-self: center;"> </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Flor M. Salvador</h5>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 12rem; height: 20rem;">
+                                    <a class="navbar-brand" href="autor-mes.html"><img src="imagenes/l.jpg"
+                                        class="card-img-top mt-3"
+                                        style="width: 9rem; height: 13rem; align-self: center;"> </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laura Dave</h5>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PAGINADOR -->
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination  justify-content-center">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#" id="next">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-2 order-2 bg-light ">
+                    <div class="text-center">
+                        <h4 class="mt-3 mb-3">Categorias</h4>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Infantil</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Literatura juvenil</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Novedades</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Novela</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Educación</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Ficción</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Fantasia</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Crimen</a></p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0" href="#">Salud</a>
+                        </p>
+                        <p><a class="link-dark link-offset-2 link-underline link-underline-opacity-0"
+                                href="#">Viajes</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center" style="margin-top: 15px;">
+                    <h5>Quienes somos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"
+                                class="link-light link-offset-2 link-underline link-underline-opacity-0">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center" style="margin-top: 15px;">
+                    <h5>Cuenta</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"
+                                class="link-light link-offset-2 link-underline link-underline-opacity-0">Configuración</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center" style="margin-top: 15px;">
+                    <h5>Políticas</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"
+                                class="link-light link-offset-2 link-underline link-underline-opacity-0">Términos y
+                                condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center" style="margin-top: 15px;">
+                    <h5>Información de contacto</h5>
+                    <p>Email: milibrocr@gmail.com</p>
+                    <p>Teléfono: +506 88888888</p>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; Copyright © 2023 Maria Fernanda Quesada - UNA. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
